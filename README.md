@@ -85,3 +85,33 @@ The analysis is structured around a series of questions and activities, covering
 ---
 
 ## Repository Structure
+
+.
+├── Invoice_analysis.py
+├── README.md
+└── data/
+└── ventas-por-factura.csv (This file should be added manually if it doesn't exist)
+
+---
+
+## How to Use
+
+1.  **Clone the repository:**
+    ```bash
+    git clone [https://github.com/your-username/Invoice-Analysis.git](https://github.com/your-username/Invoice-Analysis.git)
+    cd Invoice-Analysis
+    ```
+2.  **Create the `data` directory and place the CSV file:**
+    Ensure you have the `ventas-por-factura.csv` file inside the `data/` folder. If you don't have the file, you can create it manually or adapt the path to where you store it.
+3.  **Install dependencies:**
+    ```bash
+    pip install pandas unidecode
+    ```
+4.  **Run the analysis script:**
+    You can execute the `Invoice_analysis.py` script directly:
+    ```bash
+    python Invoice_analysis.py
+    ```
+    Or, for an interactive experience, you can open it in an environment like Jupyter Notebook or Spyder and run the cells step-by-step to see the results of each section.
+
+---
