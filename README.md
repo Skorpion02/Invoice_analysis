@@ -88,8 +88,11 @@ The analysis is structured around a series of questions and activities, covering
 
 .
 ├── Invoice_analysis.py
+
 ├── README.md
+
 └── data/
+
 └── ventas-por-factura.csv (This file should be added manually if it doesn't exist)
 
 ---
